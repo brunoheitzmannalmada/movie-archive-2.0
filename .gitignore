@@ -1,0 +1,18 @@
+# .NET
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+
+# JavaScript
+**/node_modules/
+**/dist/
+
+# Local settings
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/

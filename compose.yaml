@@ -1,0 +1,10 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: infra/docker/api.Dockerfile
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      # No database, collector, cloud credentials or secrets are required.

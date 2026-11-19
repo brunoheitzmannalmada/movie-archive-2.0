@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="backend/src/MovieArchive.Domain/MovieArchive.Domain.csproj" />
+  <Project Path="backend/src/MovieArchive.Application/MovieArchive.Application.csproj" />
+  <Project Path="backend/src/MovieArchive.Infrastructure/MovieArchive.Infrastructure.csproj" />
+  <Project Path="backend/src/MovieArchive.Api/MovieArchive.Api.csproj" />
+</Solution>
